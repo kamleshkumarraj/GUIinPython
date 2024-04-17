@@ -1,0 +1,17 @@
+from tkinter import *
+root=Tk()
+def circle():
+    canva.create_oval(150,300,300,450,fill="green",width=5)
+root.title("Canvas practice set ")
+root.geometry("800x600")
+root.maxsize(800,600)
+root.minsize(800,600)
+canva=Canvas(root,bg="aqua",width=800)
+canva.place(x=0,y=0,height=600)
+canva.create_line(100,100,310,100,fill="red",width=3)
+canva.create_rectangle(100,120,310,300,fill="blue",width=5)
+btn=Button(canva,text="create circle ",bg="red",activebackground="yellow",command=circle)
+btn.place(x=300,y=400)
+canva.create_text(100,350,text="kamlesh kumar",font=("Times New Roman",20,"bold"),fill="green")
+# canva.create_arc(20,20,270,360,start=20,extant=100)
+root.mainloop()

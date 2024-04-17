@@ -1,0 +1,15 @@
+# from PIL import ImageTk,Image
+# from tkinter import *
+# photo=PhotoImage(file="Tkinter\kamlesh.png")
+# k=Label(image=photo,bg="orangered4",width=300)
+# k.place(x=150,y=20)
+# photo1=Image.open("Tkinter\punjab.jpg")
+# k=ImageTk.PhotoImage(photo1)
+# k1=Label(image=k,width=100,bg="orangered4")
+# k1.place(x=30,y=40)
+# photo2=Image.open("Tkinter\images2.jpg")
+# k1=ImageTk.PhotoImage(photo2)
+# k2=Label(image=k1,width=500)
+# k2.place(x=20,y=170,height=550)
+# print(3*5/3)
+print(int(eval("3-6*7+2//4*5-8")))
